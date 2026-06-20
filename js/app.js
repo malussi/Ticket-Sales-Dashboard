@@ -143,13 +143,21 @@ function actualizarPreview() {
 }
 
 function generarRotacionVip() {
-  const rotacion = (Math.random() * 6 - 3).toFixed(2);
-  return rotacion;
+    const array = new Uint32Array(1);
+    globalThis.crypto.getRandomValues(array);
+    const numeroAleatorio = array[0] / 0xFFFFFFFF; // Esto reemplaza al Math.random()
+
+    const rotacion = (numeroAleatorio * 6 - 3).toFixed(2);
+    return rotacion;
 }
 
 function generarRotacionGeneral() {
-  const rotacion = (Math.random() * 4 - 2).toFixed(2);
-  return rotacion;
+    const array = new Uint32Array(1);
+    globalThis.crypto.getRandomValues(array);
+    const numeroAleatorio = array[0] / 0xFFFFFFFF; // Esto reemplaza al Math.random()
+
+    const rotacion = (numeroAleatorio * 4 - 2).toFixed(2);
+    return rotacion;
 }
 
 // ─── Formateo de pesos CLP ────────────────────────────────────────────────────
