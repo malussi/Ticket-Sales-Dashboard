@@ -13,6 +13,10 @@ Este repositorio contiene el código fuente del proyecto **Ticket Sales Dashboar
 ## Ejecución Técnica
 El análisis se realizó mediante un entorno aislado utilizando **Docker**, lo que permite una ejecución consistente, limpia y reproducible.
 
+## Video de Presentación
+Puedes ver la explicación técnica y la auditoría completa del proyecto aquí:
+[Ver video de la Evaluación Sumativa III - Ticket Sales Dashboard](https://youtu.be/0mCYDlJxkvU)
+
 **Comando de ejecución:**
 ```bash
 docker run --rm --network=host \
