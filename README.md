@@ -15,7 +15,7 @@ El análisis se realizó mediante un entorno aislado utilizando **Docker**, lo q
 
 ## Video de Presentación
 Puedes ver la explicación técnica y la auditoría completa del proyecto aquí:
-[Ver video de la Evaluación Sumativa III - Ticket Sales Dashboard](https://youtu.be/0mCYDlJxkvU)
+[Ver video de la Evaluación Sumativa III - Ticket Sales Dashboard](https://youtu.be/0mCYDlJxkvU?si=icwL7VLzJM2-LYyw)
 
 **Comando de ejecución:**
 ```bash
